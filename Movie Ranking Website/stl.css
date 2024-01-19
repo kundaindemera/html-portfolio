@@ -1,6 +1,58 @@
 
-img{height: 300px;width: 500px; }
-h1{text-align: center;font-style: oblique;background-color: #F4EAE0;font-size: 40pt;}
-.movie-titles{font-weight: 550;background-color: #FAF6F0;font-size: 18pt;font-family: Arial, Helvetica, sans-serif;}
-footer{text-align: center;font-weight: normal;font-family: Arial, Helvetica, sans-serif;}
-p{font-family: Arial, Helvetica, sans-serif;} 
+body {
+    background-color: #e1daca;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+    border: 3px soli black;
+    margin-left: 25%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    text-transform: uppercase;
+}
+
+.movie-titles {
+    font-weight: 550; 
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid white;
+}
+
+footer {
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.footer {
+    border: none;
+}
+
+.description{
+    border: none;
+    
+}
+
+.movie-description{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 36px;
+    margin-top: 2px;
+}
