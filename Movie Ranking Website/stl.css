@@ -1,13 +1,12 @@
-
 body {
-    background-color: #e1daca;
+    background-color: #f3f0ec;
 }
 
 img {
     height: 300px;
     width: 500px;
     border: 3px soli black;
-    margin-left: 25%;
+    
 }
 
 h1 {
@@ -46,13 +45,58 @@ main {
     border: none;
 }
 
-.description{
+.about-page{
     border: none;
     
 }
 
-.movie-description{
+.description{
     font-family: 'Amatic SC', sans-serif;
     font-size: 36px;
     margin-top: 2px;
+}
+
+.home-image-links{
+    height: 250px;
+    width: 330px;
+    border: 3px solid black;
+    margin: 0;
+}
+
+#hil1{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    font-weight: 600;    
+}
+
+#hil2{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top:-301px;
+}
+
+#hil3{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -301px;
+}
+
+#hil4{
+    width: 370px;
+    height: 300px;
+    text-align: center;
+    margin-left: 75%;
+    margin-top: -301px;
+}
+
+.hilt{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 3px;
 }
