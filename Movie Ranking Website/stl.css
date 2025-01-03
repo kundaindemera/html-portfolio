@@ -1,0 +1,314 @@
+body {
+    background-color: #D0D4CA;
+}
+
+
+#dwight{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+    
+}
+
+
+
+img {
+    height: 400px;
+    width: 550px;
+    border: 2px solid gray; 
+    border-radius: 15px;
+    
+}
+
+h1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.semodivs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items:center ;
+}
+
+
+.titles{
+    font-weight: 550; 
+    font-size: 23pt;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid whit;
+}
+
+
+
+.semovdivs{
+   width:95%; 
+}
+
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    clear: both;
+}
+
+p {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 25pt;
+    padding: 5px;
+    
+}
+
+main {
+    background-color: #F5F7F8;
+}
+
+
+.description {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 36pt;
+    margin-top: 2px;
+   
+}
+
+.list-in-description{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 26px;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-around;
+    gap:10px;
+    flex-wrap: wrap;
+    
+}
+
+.box{ 
+    height: 350px;
+    
+}
+
+.home-image-links{
+    height: 250px;
+    width: 330px;
+    border: 3px solid black;
+    margin: 0;
+    float: none;
+}
+
+
+
+.hilt{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    margin-top: 3px;
+}
+
+a.hilt{
+    color: black;
+    text-decoration: none;
+}
+
+@media(min-width:319px) and (max-width:480px){
+     
+    
+    #dwight{
+        height: 80px;
+        width: 80px;
+    }
+
+
+    img {
+        height: 110px;
+        width: 125px;
+        border-radius: 10px;
+        border: 1px solid gray; 
+    }
+
+    h1 {
+        font-size: 25pt;
+       
+    }
+
+    .semodivs-container{
+        gap:10px
+    }
+
+    .titles{
+        font-weight: 550; 
+        font-size: 13pt;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid white;
+    }
+
+
+
+    p {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 10pt;
+        padding: 5px;
+        
+    }
+
+    main {
+        background-color: #ffffff;
+    }
+
+    
+
+
+    .description {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 15pt;
+        margin-top: 2px;
+    
+    }
+
+    
+    
+   
+}
+
+@media (min-width:481px) and (max-width:720px){
+   
+    #dwight{
+        height: 120px;
+        width: 120px;
+    }
+
+
+    img {
+        height: 156px;
+        width: 216px;
+        border-radius: 10px;
+        border: 1px solid gray; 
+    }
+
+    h1 {
+        font-size: 30pt;
+       
+    }
+
+    .semodivs-container{
+        gap: 45px;
+    }
+
+    .titles{
+        font-weight: 550; 
+        font-size: 18pt;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid white;
+    }
+
+
+    p {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 15pt;
+        padding: 5px;
+        
+    }
+
+    main {
+        background-color: #ffffff;
+    }
+
+    
+
+    .description {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 20pt;
+        margin-top: 2px;
+    
+    }
+
+   
+
+    .hilt{
+        
+        font-size: 20pt;
+        
+    }
+
+}
+
+@media (min-width:721px) and (max-width:1080px){
+   
+    #dwight{
+        height: 160px;
+        width: 160px;
+    }
+
+   
+    img {
+        height: 233px;
+        width: 324px;
+        border-radius: 10px;
+        border: 1px solid gray; 
+    }
+
+    h1 {
+        font-size: 35pt;
+       
+    }
+
+    .semodivs-container{
+        gap: 50px;
+    }
+
+    .titles{
+        font-weight: 550; 
+        font-size: 23pt;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid white;
+    }
+
+
+    p {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 20pt;
+        padding: 5px;
+        
+    }
+
+    main {
+        background-color: #ffffff;
+    }
+
+
+    .description {
+        font-family: 'Amatic SC', sans-serif;
+        font-size: 25pt;
+        margin-top: 2px;
+    
+    }
+
+    
+    
+
+    .hilt{
+       
+        font-size: 23pt;
+        
+    }
+}
+
+
